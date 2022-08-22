@@ -6,8 +6,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<HomePage />} />
-        <Route path='/game/:gid' element={<GamePage />} />
+        <Route path='/games-app/' element={<HomePage />} />
+        <Route path='/games-app/game/:gid' element={<GamePage />} />
       </Routes>
     </BrowserRouter>
   );

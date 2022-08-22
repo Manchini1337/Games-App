@@ -42,7 +42,7 @@ const GameCard: React.FC<GameCardProps> = ({ content }) => {
   });
 
   return (
-    <Link className={classes.link} to={`/game/${id}`}>
+    <Link className={classes.link} to={`/games-app/game/${id}`}>
       <img className={classes.img} src={thumbnail} alt={title} />
       <div className={classes.cardDetails}>
         <h2 className={classes.title}>{title}</h2>
