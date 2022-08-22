@@ -29,7 +29,7 @@ const useFetchGames = (params: Filter): useFetchGamesResponse => {
         axios
           .request(options)
           .then((response) => {
-            setGames(response.data);
+            setGames(response.data.slice(0, 99));
             
           })
           .catch((error) => setErr(error.message));
