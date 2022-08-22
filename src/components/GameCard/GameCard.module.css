@@ -1,0 +1,56 @@
+.link {
+    display: inline-block;
+    width: 100%;
+    background-color: #32383e;
+    border-radius: 4px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.img {
+    width: 100%;
+}
+
+.cardDetails {
+    padding: 20px;
+    white-space: nowrap;
+
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #aaa;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.description {
+    color: #7a8288;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.genre {
+    padding: 2px 4px;
+    margin-left: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #272b30;
+    background-color: #7a8288;
+
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

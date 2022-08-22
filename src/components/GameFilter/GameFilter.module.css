@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 16px;
+    margin: 24px auto;
+    max-width: 500px;
+    color: #7a8288;
+}
+
+.label {
+    margin-right: 16px;
+    
+}
+
+.label:last-of-type {
+    margin-right: 0px;
+}
+
+.select {
+    width: 100%;
+    margin-top: 0;
+    color: #fff;
+    background-color: #7a8288;
+}

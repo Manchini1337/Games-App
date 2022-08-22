@@ -1,0 +1,36 @@
+.list {
+    display: grid;
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 0 16px;
+    list-style-type: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    row-gap: 20px
+
+   
+}
+
+@media (max-width: 1190px) {
+     .list {
+        grid-template-columns: 1fr 1fr;
+     }   
+}
+
+@media (max-width: 800px) {
+    .list {
+        grid-template-columns: 1fr;
+    }
+}
+
+.listItem {
+    transition: all 0.2s ease-in-out;
+    max-width: 350px;
+}
+
+.listItem:hover {
+    transform: scale(1.05);
+}
